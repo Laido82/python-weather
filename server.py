@@ -26,5 +26,4 @@ def get_weather():
 
 
 if __name__ == "__main__":
-    app.config["DEBUG"] = True
     serve(app, host="localhost", port=5000)
